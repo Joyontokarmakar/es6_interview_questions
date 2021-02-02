@@ -6,7 +6,7 @@ const output = [];
 //     output.push(result);
 // }
 
-          //   map    //
+          //   map => array return   //
 
 // numbers.map(function(element, index, array){
 //     console.log(element, index, array );
@@ -20,8 +20,12 @@ const output = [];
 
 // const result = numbers.map(x => x * x);
 
+          //   filter => array return   //
 
-          //   filter   //
+// const bigger = numbers.filter(x => x>5);
 
-const bigger = numbers.filter(x => x>5);
-console.log(bigger);
+          //   find => only one element return   //
+
+const isThere = numbers.find(x => x>5);
+
+console.log(isThere);
