@@ -1,7 +1,7 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
 // slice:
-//which index to which index
+// which index to which index
 // const part1 = numbers.slice(2, 5);
 // console.log(part1);
 // console.log(numbers);
